@@ -1,4 +1,7 @@
-Welcome to my DApp (Decentralized Application)! This project is a simple DApp that allows users to send Ether and mint NFTs (Non-Fungible Tokens) using Biconomy's one-click batch and gasless transaction feature. Additionally, I have integrated Circle cross-chain bridge to enable token bridging from one chain to another using Biconomy's batch transaction. With just one click, users can bridge USDC tokens from one chain to another.
+
+# DApp for Token Transfer and NFT Minting with Biconomy
+
+Welcome to my DApp 1Click (Decentralized Application)! This project is a simple DApp that allows users to send Ether and mint NFTs (Non-Fungible Tokens) using Biconomy's one-click batch and gasless transaction feature. Additionally, I have integrated Circle cross-chain bridge to enable token bridging from one chain to another using Biconomy's batch transaction. With just one click, users can bridge USDC tokens from one chain to another.
 
 NFT contract address: 0x60155DF180066aD68ee39D64B5AeBF1440971Ccf
 
@@ -21,7 +24,6 @@ Before running the application, ensure you have the following dependencies insta
 
 2. Navigate to the project directory and install the required dependencies:
 
-bash
 yarn
 
 
@@ -36,8 +38,6 @@ This script runs the DApp in development mode. Open [http://localhost:3000](http
 ### yarn build
 
 Use this script to build the DApp for production. The production-ready build will be placed in the build folder. The build process includes minification and filename hashing for optimal performance. Your DApp is now ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) in the Create React App documentation for more information.
 
 ## Features
 
